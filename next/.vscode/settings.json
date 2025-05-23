@@ -1,0 +1,37 @@
+{
+  "eslint.quiet": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.autoImportSpecifierExcludeRegexes": [
+    "@radix-ui",
+    "react-day-picker",
+    "next-themes",
+    "vaul"
+  ],
+  "typescript.preferences.quoteStyle": "single",
+  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.useTabStops": true,
+    "files.insertFinalNewline": true
+  },
+  "[typescriptreact][javascriptreact]": {
+    "javascript.preferences.jsxAttributeCompletionStyle": "none",
+    "typescript.preferences.jsxAttributeCompletionStyle": "none"
+  },
+  "remote.SSH.defaultForwardedPorts": [
+    {
+      "name": "Vite Dev Server",
+      "localPort": 5173,
+      "remotePort": 5173
+    }
+  ]
+}
