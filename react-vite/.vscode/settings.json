@@ -26,5 +26,12 @@
   "[typescriptreact][javascriptreact]": {
     "javascript.preferences.jsxAttributeCompletionStyle": "none",
     "typescript.preferences.jsxAttributeCompletionStyle": "none"
-  }
+  },
+  "remote.SSH.defaultForwardedPorts": [
+    {
+      "name": "Vite Dev Server",
+      "localPort": 5173,
+      "remotePort": 5173
+    }
+  ]
 }
