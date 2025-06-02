@@ -29,9 +29,9 @@
   },
   "remote.SSH.defaultForwardedPorts": [
     {
-      "name": "Vite Dev Server",
-      "localPort": 5173,
-      "remotePort": 5173
+      "name": "Next.js Dev Server",
+      "localPort": 3000,
+      "remotePort": 3000
     }
   ]
 }
